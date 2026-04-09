@@ -1,0 +1,40 @@
+{
+  "type": "turrets/ItemTurret",
+  "name": "desert-missile-launcher",
+  "displayName": "사막 폭풍 미사일 런처",
+  "description": "강력한 폭발 반경을 가진 고위력 미사일 발사기.",
+  "research": {
+    "parent": "salvo",
+    "requirements": ["copper/150", "lead/100", "titanium/75"]
+  },
+  "health": 800,
+  "size": 3,
+  "reload": 180,
+  "range": 420,
+  "shootSound": "missile",
+  "rotateSpeed": 3,
+  "inaccuracy": 1,
+  "recoil": 6,
+  "ammo": {
+    "blastCompound": {
+      "type": "MissileBulletType",
+      "speed": 4.2,
+      "damage": 280,
+      "lifetime": 120,
+      "splashDamage": 320,
+      "splashDamageRadius": 90,
+      "status": "burning",
+      "hitEffect": "massiveExplosion"
+    },
+    "pyratite": {
+      "type": "MissileBulletType",
+      "speed": 5.0,
+      "damage": 200,
+      "lifetime": 100,
+      "splashDamage": 240,
+      "splashDamageRadius": 70,
+      "status": "burning",
+      "hitEffect": "blastExplosion"
+    }
+  }
+}
