@@ -1,8 +1,4 @@
 {
-  "type": "turrets/ItemTurret",
-  "name": "desert-missile-launcher",
-  "research": "duo",
-{
   "name": "desert-storm-mod",
   "displayName": "Desert Storm Mod",
   "author": "Custom",
