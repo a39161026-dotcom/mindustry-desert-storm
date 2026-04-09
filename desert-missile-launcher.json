@@ -1,0 +1,67 @@
+{
+  "type": "turrets/ItemTurret",
+  "name": "desert-missile-launcher",
+  "displayName": "사막 폭풍 미사일 런처",
+  "description": "강력한 폭발 반경을 가진 고위력 미사일 발사기.",
+
+  "research": {
+    "parent": "salvo",
+    "requirements": [
+      "copper/150",
+      "lead/100",
+      "titanium/75"
+    ]
+  },
+
+  "health": 800,
+  "size": 3,
+  "reload": 180,
+  "range": 420,
+  "shootSound": "missile",
+  "rotateSpeed": 3,
+  "inaccuracy": 1,
+  "shootCone": 8,
+  "recoil": 6,
+  "recoilTime": 60,
+
+  "ammo": {
+    "blastCompound": {
+      "type": "MissileBulletType",
+      "speed": 4.2,
+      "damage": 280,
+      "lifetime": 120,
+      "width": 12,
+      "height": 18,
+      "homingRange": 180,
+      "homingPower": 0.08,
+      "splashDamage": 320,
+      "splashDamageRadius": 90,
+      "trailColor": "ff7722",
+      "trailWidth": 4,
+      "trailLength": 16,
+      "status": "burning",
+      "statusDuration": 180,
+      "hitEffect": "massiveExplosion",
+      "despawnEffect": "massiveExplosion"
+    },
+    "pyratite": {
+      "type": "MissileBulletType",
+      "speed": 5.0,
+      "damage": 200,
+      "lifetime": 100,
+      "width": 10,
+      "height": 15,
+      "homingRange": 150,
+      "homingPower": 0.06,
+      "splashDamage": 240,
+      "splashDamageRadius": 70,
+      "trailColor": "ffaa00",
+      "trailWidth": 3,
+      "trailLength": 12,
+      "status": "burning",
+      "statusDuration": 240,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion"
+    }
+  }
+}
