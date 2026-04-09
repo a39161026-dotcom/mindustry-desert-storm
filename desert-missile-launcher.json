@@ -1,6 +1,10 @@
 {
   "type": "turrets/ItemTurret",
   "name": "desert-missile-launcher",
+  "research": "duo",
+{
+  "type": "turrets/ItemTurret",
+  "name": "desert-missile-launcher",
   "displayName": "사막 폭풍 미사일 런처",
   "description": "강력한 폭발 반경을 가진 고위력 미사일 발사기. 사막 전투에 최적화.",
 
