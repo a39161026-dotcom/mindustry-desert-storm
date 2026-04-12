@@ -1,0 +1,8 @@
+{
+  "name": "desert-storm-mod",
+  "displayName": "Desert Storm Mod",
+  "author": "Custom",
+  "description": "사막 폭풍 맵과 강력한 폭발 미사일 무기 모드",
+  "version": "1.0.0",
+  "minGameVersion": "146"
+}
